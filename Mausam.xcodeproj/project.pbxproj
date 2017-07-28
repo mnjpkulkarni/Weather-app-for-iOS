@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AED889E11F2B2CE500FA6BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED889E01F2B2CE500FA6BF1 /* AppDelegate.swift */; };
+		AED889E31F2B2CE500FA6BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED889E21F2B2CE500FA6BF1 /* ViewController.swift */; };
+		AED889E61F2B2CE500FA6BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED889E41F2B2CE500FA6BF1 /* Main.storyboard */; };
+		AED889E81F2B2CE500FA6BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED889E71F2B2CE500FA6BF1 /* Assets.xcassets */; };
+		AED889EB1F2B2CE500FA6BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED889E91F2B2CE500FA6BF1 /* LaunchScreen.storyboard */; };
+		AED889F61F2B2CE500FA6BF1 /* MausamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED889F51F2B2CE500FA6BF1 /* MausamTests.swift */; };
+		AED88A011F2B2CE600FA6BF1 /* MausamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED88A001F2B2CE600FA6BF1 /* MausamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AED889F21F2B2CE500FA6BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED889D51F2B2CE500FA6BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED889DC1F2B2CE500FA6BF1;
+			remoteInfo = Mausam;
+		};
+		AED889FD1F2B2CE600FA6BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED889D51F2B2CE500FA6BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED889DC1F2B2CE500FA6BF1;
+			remoteInfo = Mausam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AED889DD1F2B2CE500FA6BF1 /* Mausam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mausam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED889E01F2B2CE500FA6BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AED889E21F2B2CE500FA6BF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AED889E51F2B2CE500FA6BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AED889E71F2B2CE500FA6BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AED889EA1F2B2CE500FA6BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AED889EC1F2B2CE500FA6BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED889F11F2B2CE500FA6BF1 /* MausamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MausamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED889F51F2B2CE500FA6BF1 /* MausamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MausamTests.swift; sourceTree = "<group>"; };
+		AED889F71F2B2CE600FA6BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED889FC1F2B2CE600FA6BF1 /* MausamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MausamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED88A001F2B2CE600FA6BF1 /* MausamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MausamUITests.swift; sourceTree = "<group>"; };
+		AED88A021F2B2CE600FA6BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AED889DA1F2B2CE500FA6BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED889EE1F2B2CE500FA6BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED889F91F2B2CE600FA6BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AED889D41F2B2CE500FA6BF1 = {
+			isa = PBXGroup;
+			children = (
+				AED889DF1F2B2CE500FA6BF1 /* Mausam */,
+				AED889F41F2B2CE500FA6BF1 /* MausamTests */,
+				AED889FF1F2B2CE600FA6BF1 /* MausamUITests */,
+				AED889DE1F2B2CE500FA6BF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AED889DE1F2B2CE500FA6BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AED889DD1F2B2CE500FA6BF1 /* Mausam.app */,
+				AED889F11F2B2CE500FA6BF1 /* MausamTests.xctest */,
+				AED889FC1F2B2CE600FA6BF1 /* MausamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AED889DF1F2B2CE500FA6BF1 /* Mausam */ = {
+			isa = PBXGroup;
+			children = (
+				AED889E01F2B2CE500FA6BF1 /* AppDelegate.swift */,
+				AED889E21F2B2CE500FA6BF1 /* ViewController.swift */,
+				AED889E41F2B2CE500FA6BF1 /* Main.storyboard */,
+				AED889E71F2B2CE500FA6BF1 /* Assets.xcassets */,
+				AED889E91F2B2CE500FA6BF1 /* LaunchScreen.storyboard */,
+				AED889EC1F2B2CE500FA6BF1 /* Info.plist */,
+			);
+			path = Mausam;
+			sourceTree = "<group>";
+		};
+		AED889F41F2B2CE500FA6BF1 /* MausamTests */ = {
+			isa = PBXGroup;
+			children = (
+				AED889F51F2B2CE500FA6BF1 /* MausamTests.swift */,
+				AED889F71F2B2CE600FA6BF1 /* Info.plist */,
+			);
+			path = MausamTests;
+			sourceTree = "<group>";
+		};
+		AED889FF1F2B2CE600FA6BF1 /* MausamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AED88A001F2B2CE600FA6BF1 /* MausamUITests.swift */,
+				AED88A021F2B2CE600FA6BF1 /* Info.plist */,
+			);
+			path = MausamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AED889DC1F2B2CE500FA6BF1 /* Mausam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED88A051F2B2CE600FA6BF1 /* Build configuration list for PBXNativeTarget "Mausam" */;
+			buildPhases = (
+				AED889D91F2B2CE500FA6BF1 /* Sources */,
+				AED889DA1F2B2CE500FA6BF1 /* Frameworks */,
+				AED889DB1F2B2CE500FA6BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mausam;
+			productName = Mausam;
+			productReference = AED889DD1F2B2CE500FA6BF1 /* Mausam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AED889F01F2B2CE500FA6BF1 /* MausamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED88A081F2B2CE600FA6BF1 /* Build configuration list for PBXNativeTarget "MausamTests" */;
+			buildPhases = (
+				AED889ED1F2B2CE500FA6BF1 /* Sources */,
+				AED889EE1F2B2CE500FA6BF1 /* Frameworks */,
+				AED889EF1F2B2CE500FA6BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AED889F31F2B2CE500FA6BF1 /* PBXTargetDependency */,
+			);
+			name = MausamTests;
+			productName = MausamTests;
+			productReference = AED889F11F2B2CE500FA6BF1 /* MausamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AED889FB1F2B2CE600FA6BF1 /* MausamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED88A0B1F2B2CE600FA6BF1 /* Build configuration list for PBXNativeTarget "MausamUITests" */;
+			buildPhases = (
+				AED889F81F2B2CE600FA6BF1 /* Sources */,
+				AED889F91F2B2CE600FA6BF1 /* Frameworks */,
+				AED889FA1F2B2CE600FA6BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AED889FE1F2B2CE600FA6BF1 /* PBXTargetDependency */,
+			);
+			name = MausamUITests;
+			productName = MausamUITests;
+			productReference = AED889FC1F2B2CE600FA6BF1 /* MausamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AED889D51F2B2CE500FA6BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Manoj Kulkarni";
+				TargetAttributes = {
+					AED889DC1F2B2CE500FA6BF1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FZ5NFCMB53;
+						ProvisioningStyle = Automatic;
+					};
+					AED889F01F2B2CE500FA6BF1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FZ5NFCMB53;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AED889DC1F2B2CE500FA6BF1;
+					};
+					AED889FB1F2B2CE600FA6BF1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FZ5NFCMB53;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AED889DC1F2B2CE500FA6BF1;
+					};
+				};
+			};
+			buildConfigurationList = AED889D81F2B2CE500FA6BF1 /* Build configuration list for PBXProject "Mausam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AED889D41F2B2CE500FA6BF1;
+			productRefGroup = AED889DE1F2B2CE500FA6BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AED889DC1F2B2CE500FA6BF1 /* Mausam */,
+				AED889F01F2B2CE500FA6BF1 /* MausamTests */,
+				AED889FB1F2B2CE600FA6BF1 /* MausamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AED889DB1F2B2CE500FA6BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED889EB1F2B2CE500FA6BF1 /* LaunchScreen.storyboard in Resources */,
+				AED889E81F2B2CE500FA6BF1 /* Assets.xcassets in Resources */,
+				AED889E61F2B2CE500FA6BF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED889EF1F2B2CE500FA6BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED889FA1F2B2CE600FA6BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AED889D91F2B2CE500FA6BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED889E31F2B2CE500FA6BF1 /* ViewController.swift in Sources */,
+				AED889E11F2B2CE500FA6BF1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED889ED1F2B2CE500FA6BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED889F61F2B2CE500FA6BF1 /* MausamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED889F81F2B2CE600FA6BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED88A011F2B2CE600FA6BF1 /* MausamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AED889F31F2B2CE500FA6BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED889DC1F2B2CE500FA6BF1 /* Mausam */;
+			targetProxy = AED889F21F2B2CE500FA6BF1 /* PBXContainerItemProxy */;
+		};
+		AED889FE1F2B2CE600FA6BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED889DC1F2B2CE500FA6BF1 /* Mausam */;
+			targetProxy = AED889FD1F2B2CE600FA6BF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AED889E41F2B2CE500FA6BF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED889E51F2B2CE500FA6BF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AED889E91F2B2CE500FA6BF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED889EA1F2B2CE500FA6BF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AED88A031F2B2CE600FA6BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AED88A041F2B2CE600FA6BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AED88A061F2B2CE600FA6BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FZ5NFCMB53;
+				INFOPLIST_FILE = Mausam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnjpk.Mausam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AED88A071F2B2CE600FA6BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FZ5NFCMB53;
+				INFOPLIST_FILE = Mausam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnjpk.Mausam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AED88A091F2B2CE600FA6BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FZ5NFCMB53;
+				INFOPLIST_FILE = MausamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnjpk.MausamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mausam.app/Mausam";
+			};
+			name = Debug;
+		};
+		AED88A0A1F2B2CE600FA6BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FZ5NFCMB53;
+				INFOPLIST_FILE = MausamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnjpk.MausamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mausam.app/Mausam";
+			};
+			name = Release;
+		};
+		AED88A0C1F2B2CE600FA6BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FZ5NFCMB53;
+				INFOPLIST_FILE = MausamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnjpk.MausamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mausam;
+			};
+			name = Debug;
+		};
+		AED88A0D1F2B2CE600FA6BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FZ5NFCMB53;
+				INFOPLIST_FILE = MausamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnjpk.MausamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mausam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AED889D81F2B2CE500FA6BF1 /* Build configuration list for PBXProject "Mausam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED88A031F2B2CE600FA6BF1 /* Debug */,
+				AED88A041F2B2CE600FA6BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED88A051F2B2CE600FA6BF1 /* Build configuration list for PBXNativeTarget "Mausam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED88A061F2B2CE600FA6BF1 /* Debug */,
+				AED88A071F2B2CE600FA6BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AED88A081F2B2CE600FA6BF1 /* Build configuration list for PBXNativeTarget "MausamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED88A091F2B2CE600FA6BF1 /* Debug */,
+				AED88A0A1F2B2CE600FA6BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AED88A0B1F2B2CE600FA6BF1 /* Build configuration list for PBXNativeTarget "MausamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED88A0C1F2B2CE600FA6BF1 /* Debug */,
+				AED88A0D1F2B2CE600FA6BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AED889D51F2B2CE500FA6BF1 /* Project object */;
+}
