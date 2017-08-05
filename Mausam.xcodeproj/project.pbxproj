@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17AE1A804A2D4C890858B0DF /* Pods_Mausam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42CD4ABE710C2B32FC77C0B /* Pods_Mausam.framework */; };
 		AED889E11F2B2CE500FA6BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED889E01F2B2CE500FA6BF1 /* AppDelegate.swift */; };
 		AED889E31F2B2CE500FA6BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED889E21F2B2CE500FA6BF1 /* ViewController.swift */; };
 		AED889E61F2B2CE500FA6BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED889E41F2B2CE500FA6BF1 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		AED889EB1F2B2CE500FA6BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED889E91F2B2CE500FA6BF1 /* LaunchScreen.storyboard */; };
 		AED889F61F2B2CE500FA6BF1 /* MausamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED889F51F2B2CE500FA6BF1 /* MausamTests.swift */; };
 		AED88A011F2B2CE600FA6BF1 /* MausamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED88A001F2B2CE600FA6BF1 /* MausamUITests.swift */; };
+		AED88A0F1F2B3C8300FA6BF1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED88A0E1F2B3C8300FA6BF1 /* Constants.swift */; };
+		AED88A111F2B3CA200FA6BF1 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED88A101F2B3CA200FA6BF1 /* CurrentWeather.swift */; };
+		AED88A191F2B409100FA6BF1 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED88A181F2B409100FA6BF1 /* Forecast.swift */; };
+		AED88A1B1F2B431B00FA6BF1 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED88A1A1F2B431B00FA6BF1 /* WeatherCell.swift */; };
+		AED88A1D1F2B571300FA6BF1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED88A1C1F2B571300FA6BF1 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42CD4ABE710C2B32FC77C0B /* Pods_Mausam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mausam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED889DD1F2B2CE500FA6BF1 /* Mausam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mausam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED889E01F2B2CE500FA6BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AED889E21F2B2CE500FA6BF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		AED889FC1F2B2CE600FA6BF1 /* MausamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MausamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED88A001F2B2CE600FA6BF1 /* MausamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MausamUITests.swift; sourceTree = "<group>"; };
 		AED88A021F2B2CE600FA6BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED88A0E1F2B3C8300FA6BF1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AED88A101F2B3CA200FA6BF1 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		AED88A181F2B409100FA6BF1 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		AED88A1A1F2B431B00FA6BF1 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		AED88A1C1F2B571300FA6BF1 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		CA8ADAB61C27F843ABE9F3B6 /* Pods-Mausam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mausam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mausam/Pods-Mausam.debug.xcconfig"; sourceTree = "<group>"; };
+		E8FD54E8CCC591EF3AF58F4D /* Pods-Mausam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mausam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mausam/Pods-Mausam.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AE1A804A2D4C890858B0DF /* Pods_Mausam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		265503E5D9B31F5D58EBD168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA8ADAB61C27F843ABE9F3B6 /* Pods-Mausam.debug.xcconfig */,
+				E8FD54E8CCC591EF3AF58F4D /* Pods-Mausam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AED889D41F2B2CE500FA6BF1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				AED889F41F2B2CE500FA6BF1 /* MausamTests */,
 				AED889FF1F2B2CE600FA6BF1 /* MausamUITests */,
 				AED889DE1F2B2CE500FA6BF1 /* Products */,
+				265503E5D9B31F5D58EBD168 /* Pods */,
+				B21DA25EBC6D2852440B3EF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +129,11 @@
 				AED889E71F2B2CE500FA6BF1 /* Assets.xcassets */,
 				AED889E91F2B2CE500FA6BF1 /* LaunchScreen.storyboard */,
 				AED889EC1F2B2CE500FA6BF1 /* Info.plist */,
+				AED88A0E1F2B3C8300FA6BF1 /* Constants.swift */,
+				AED88A101F2B3CA200FA6BF1 /* CurrentWeather.swift */,
+				AED88A181F2B409100FA6BF1 /* Forecast.swift */,
+				AED88A1A1F2B431B00FA6BF1 /* WeatherCell.swift */,
+				AED88A1C1F2B571300FA6BF1 /* Location.swift */,
 			);
 			path = Mausam;
 			sourceTree = "<group>";
@@ -125,6 +156,14 @@
 			path = MausamUITests;
 			sourceTree = "<group>";
 		};
+		B21DA25EBC6D2852440B3EF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A42CD4ABE710C2B32FC77C0B /* Pods_Mausam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AED88A051F2B2CE600FA6BF1 /* Build configuration list for PBXNativeTarget "Mausam" */;
 			buildPhases = (
+				EA741471670BD07F91154A86 /* [CP] Check Pods Manifest.lock */,
 				AED889D91F2B2CE500FA6BF1 /* Sources */,
 				AED889DA1F2B2CE500FA6BF1 /* Frameworks */,
 				AED889DB1F2B2CE500FA6BF1 /* Resources */,
+				ADED1CFAD84F06DC0D220CFD /* [CP] Embed Pods Frameworks */,
+				FA5343BBAEB3347273C3B681 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +299,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADED1CFAD84F06DC0D220CFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mausam/Pods-Mausam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA741471670BD07F91154A86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA5343BBAEB3347273C3B681 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mausam/Pods-Mausam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AED889D91F2B2CE500FA6BF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +354,11 @@
 			files = (
 				AED889E31F2B2CE500FA6BF1 /* ViewController.swift in Sources */,
 				AED889E11F2B2CE500FA6BF1 /* AppDelegate.swift in Sources */,
+				AED88A1B1F2B431B00FA6BF1 /* WeatherCell.swift in Sources */,
+				AED88A111F2B3CA200FA6BF1 /* CurrentWeather.swift in Sources */,
+				AED88A191F2B409100FA6BF1 /* Forecast.swift in Sources */,
+				AED88A0F1F2B3C8300FA6BF1 /* Constants.swift in Sources */,
+				AED88A1D1F2B571300FA6BF1 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +510,7 @@
 		};
 		AED88A061F2B2CE600FA6BF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8ADAB61C27F843ABE9F3B6 /* Pods-Mausam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FZ5NFCMB53;
@@ -428,6 +524,7 @@
 		};
 		AED88A071F2B2CE600FA6BF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FD54E8CCC591EF3AF58F4D /* Pods-Mausam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FZ5NFCMB53;
@@ -516,6 +613,7 @@
 				AED88A071F2B2CE600FA6BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AED88A081F2B2CE600FA6BF1 /* Build configuration list for PBXNativeTarget "MausamTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +622,7 @@
 				AED88A0A1F2B2CE600FA6BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AED88A0B1F2B2CE600FA6BF1 /* Build configuration list for PBXNativeTarget "MausamUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +631,7 @@
 				AED88A0D1F2B2CE600FA6BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
