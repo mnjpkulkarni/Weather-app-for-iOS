@@ -3,6 +3,8 @@ This app gets the current location and gives the current weather and weather for
 
 Tool: XCode 8.3.3
 
+Language: Swift 3
+
 Library for REST and web requests: Alamofire
 
 Instructions to configure Alamofire:
